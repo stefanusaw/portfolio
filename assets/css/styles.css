@@ -448,7 +448,7 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(8px); /* Adds a blur effect to the background */
+  backdrop-filter: blur(9px); /* Adds a blur effect to the background */
 }
 
 .maintenance-content {
