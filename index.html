@@ -15,7 +15,7 @@
 
   <!-- Animate CSS CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <title>My Portfolio</title>
+  <title>Stefanus Albert Welong</title>
 </head>
 
 <body>
@@ -26,145 +26,171 @@
     </div>
   </div>
   <div id="main-content">
-    <nav>
-      <h1>STEFANUS ALBERT WELONG</h1>
-      <ul class="navigation">
-        <li><a href="#about" class="btn nav-link">About</a></li>
-        <li><a href="#skills" class="btn nav-link">Skills</a></li>
-        <li><a href="#projects" class="btn nav-link">Projects</a></li>
-        <li><a href="#contact" class="btn nav-link">Contact</a></li>
-      </ul>
-      <button class="burger-menu" id="burger-menu">
-        <ion-icon class="bars" name="menu-outline"></ion-icon>
-      </button>
-    </nav>
-
-    <section class="hero">
-      <h1>Stefanus Albert Welong</h1>
-    </section>
-    <section class="about" id="about">
-      <h2>home this is about</h2>
-    </section>
-    <!-- Skills section -->
-    <section class="skills" id="skills">
-      <h2 class="skill-header">My Top Skills</h2>
-
-      <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
-          <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
-          <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
-          <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+    <header id="site-header">
+      <nav>
+        <h1>STEFANUS ALBERT WELONG</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="btn nav-link">About</a></li>
+          <li><a href="#skills" class="btn nav-link">Skills</a></li>
+          <li><a href="#projects" class="btn nav-link">Projects</a></li>
+          <li><a href="#contact" class="btn nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm Stefanus Albert Welong</h1>
+            <p>Front-End Developer & UI/UX Designer, Researcher, and Analyst</p>
+            <p>Crafting beautiful, functional, and user-centric websites and applications.</p>
+            <button onclick="window.location.href='#projects'">See My Work</button>
         </div>
-
-        <div class="second-set animate__animated animate__pulse">
-          <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card" />
-          <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
-          <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
-        </div>
+        <div class="hero-image">
+          <img src="assets/icons/pixeltrue-web-development.svg" alt="Developer Image">
       </div>
     </section>
 
-    <!-- Projects section -->
-    <section class="projects" id="projects">
-      <h2 class="projects-title">Some of my Recent Projects</h2>
-      <div class="projects-container">
-        <div class="project-container project-card">
-          <!-- <img
-                  src="assets/images/expenseTracker.png"
-                  alt="expense-tracker"
-                  loading="lazy"
-                  class="project-pic"
-                /> -->
-          <h3 class="project-title">Expense Tracker</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+      <section class="about" id="about">
+        <h2>home this is about</h2>
+      </section>
+      <!-- Skills section -->
+      <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+
+        <div class="skills-wrapper">
+          <div class="first-set animate__animated animate__pulse">
+            <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
+            <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+            <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+          </div>
+
+          <div class="second-set animate__animated animate__pulse">
+            <img src="assets/icons/icons8-python.svg" alt="" loading="lazy" class="icon icon-card" />
+            <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
+            <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
+          </div>
         </div>
-        <div class="project-container project-card">
-          <!-- <img
-                  src="assets/images/netflixClone.png"
-                  alt="netflic-clone"
-                  loading="lazy"
-                  class="project-pic"
-                /> -->
-          <h3 class="project-title">Netflix Clone</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </section>
+
+      <!-- Projects section -->
+      <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <!-- <img
+                    src="assets/images/expenseTracker.png"
+                    alt="expense-tracker"
+                    loading="lazy"
+                    class="project-pic"
+                  /> -->
+            <h3 class="project-title">
+              <a href="https://github.com/stefanusaw/UX_Analyst_Project" target="_blank" class="project-link">
+                UX Analysis on Higgzfield Co.
+              </a>
+            </h3>
+            <p class="project-details">
+              Collaborating with Higgzfield Co. to perform a full-scale UX analysis on their website
+              to assist them in their full website redesign process.
+            </p>
+
+          </div>
+          <div class="project-container project-card">
+            <!-- <img
+                    src="assets/images/netflixClone.png"
+                    alt="netflic-clone"
+                    loading="lazy"
+                    class="project-pic"
+                  /> -->
+            <h3 class="project-title">
+              <a href="https://github.com/stefanusaw/project-W4TW-EWB" target="_blank" class="project-link">
+                Water Filter Building Mobile App
+              </a>
+            </h3>
+            <p class="project-details">
+              Collaborating with Engineers Without Borders to implement a fully functioning mobile application on
+              building a water filter incorporating the React Native framework.
+            </p>
+          </div>
+          <div class="project-container project-card">
+            <!-- <img
+                    src="assets/images/greenyEarth.png"
+                    alt="greeny-earth"
+                    loading="lazy"
+                    class="project-pic"
+                  /> -->
+            <h3 class="project-title">
+              <a href="https://github.com/stefanusaw/UX_Analyst_Project" target="_blank" class="project-link">UX
+                Analysis on Higgzfield Co.</a>
+            </h3>
+            <p class="project-details">
+              Collaborating with Higgzfield Co. to perform a full-scale UX analysis on their website
+              to assist them in their full website redesign process.
+            </p>
+          </div>
         </div>
-        <div class="project-container project-card">
-          <!-- <img
-                  src="assets/images/greenyEarth.png"
-                  alt="greeny-earth"
-                  loading="lazy"
-                  class="project-pic"
-                /> -->
-          <h3 class="project-title">Greeny Earth</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-      </div>
-    </section>
-    <!-- Contact section -->
-    <section class="contact" id="contact">
-      <h2>Get In Touch With Me</h2>
-      <div class="contact-form-container">
-        <div class="contact-form">
-          <!-- <form action="mailto:albertwelong@gmail.com" method="POST" enctype="text/plain">
-            <div class="form-control">
-              <label for="name">Name</label>
+      </section>
+      <!-- Contact section -->
+      <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <!-- <form action="mailto:albertwelong@gmail.com" method="POST" enctype="text/plain">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
               <input
-                type="text"
-                id="name"
-                name="sender-name"
-                placeholder="Enter Your Name"
-                class="input-field"
-                required
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
               />
-            </div>
-            <div class="form-control">
-              <label for="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="sender-email"
-                placeholder="Enter Your Email"
-                class="input-field"
-                required
-              />
-            </div>
-            <div class="form-control">
-              <label for="message">Message</label>
-              <textarea
-                id="message"
-                cols="60"
-                rows="10"
-                placeholder="Enter Your Message"
-                name="message"
-                class="input-field"
-                required
-              ></textarea>
-            </div>
-            <input
-              type="submit"
-              value="Submit"
-              id="submit-btn"
-              class="submit-btn"
-            />
-          </form> -->
+            </form> -->
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
+  </div>
+
+  <div class="footer">
+    <a href="https://github.com/stefanusaw" target="_blank"><img src="assets/icons/icons8-github.svg" alt="GitHub"></a>
+    <a href="https://www.linkedin.com/in/stefanusa-welong" target="_blank"><img src="assets/icons/icons8-linkedin.svg"
+        alt="LinkedIn"></a>
+    <a href="mailto:albertwelong@gmail.com"><img src="assets/icons/icons8-gmail-logo.svg"
+        alt="albertwelong@gmail.com"></a>
   </div>
 
 
