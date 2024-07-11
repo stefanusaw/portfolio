@@ -40,6 +40,14 @@
         </button>
       </nav>
     </header>
+
+    <div id="dropdown" class="dropdown">
+      <a href="#about" class="btn nav-link">About</a>
+      <a href="#skills" class="btn nav-link">Skills</a>
+      <a href="#projects" class="btn nav-link">Projects</a>
+      <a href="#contact" class="btn nav-link">Contact</a>
+    </div>
+
     <main>
       <section class="hero">
         <div class="hero-content">
@@ -53,9 +61,9 @@
       </div>
     </section>
 
-      <section class="about" id="about">
+      <!-- <section class="about" id="about">
         <h2>home this is about</h2>
-      </section>
+      </section> -->
       <!-- Skills section -->
       <section class="skills" id="skills">
         <h2 class="skill-header">My Top Skills</h2>
@@ -114,22 +122,7 @@
               building a water filter incorporating the React Native framework.
             </p>
           </div>
-          <div class="project-container project-card">
-            <!-- <img
-                    src="assets/images/greenyEarth.png"
-                    alt="greeny-earth"
-                    loading="lazy"
-                    class="project-pic"
-                  /> -->
-            <h3 class="project-title">
-              <a href="https://github.com/stefanusaw/UX_Analyst_Project" target="_blank" class="project-link">UX
-                Analysis on Higgzfield Co.</a>
-            </h3>
-            <p class="project-details">
-              Collaborating with Higgzfield Co. to perform a full-scale UX analysis on their website
-              to assist them in their full website redesign process.
-            </p>
-          </div>
+          
         </div>
       </section>
       <!-- Contact section -->
@@ -198,7 +191,16 @@
   <!-- Ion icons scripts -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <!-- <script>
+    document.getElementById('burger-menu').addEventListener('click', function() {
+      var dropdown = document.getElementById('dropdown');
+      if (dropdown.style.display === 'block') {
+        dropdown.style.display = 'none';
+      } else {
+        dropdown.style.display = 'block';
+      }
+    });
+    </script> -->
 </body>
 
 </html>
