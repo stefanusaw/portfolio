@@ -496,7 +496,7 @@ nav ul li {
 
 }
 
-@media screen and (max-width: 420px) {
+/* @media screen and (max-width: 420px) {
   .hero img {
     height: 37.5rem;
     width: 23rem;
@@ -509,7 +509,7 @@ nav ul li {
   .contact-form-container {
     max-width: 17.75rem;
   }
-}
+} */
 
 
 /* Styling for maintenance overlay */
