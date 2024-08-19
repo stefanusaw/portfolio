@@ -182,8 +182,12 @@ nav ul li {
   display: flex;
   /* background-color: red; */
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
+  
   overflow-y: hidden;
+}
+.projects-container > * {
+  flex: 0 0 auto; /* Ensure items don’t stretch or shrink */
 }
 
 .projects-title {
@@ -479,6 +483,12 @@ nav ul li {
 .dropdown a:hover {
   background-color: #ddd;
   color: black;
+}
+
+@media (max-width: 1100px) {
+  .projects-container {
+    justify-content: flex-start; /* Align items to the start (left) when viewport is 1100px or smaller */
+  }
 }
 
 /* Nav bar button styling end */
