@@ -12,6 +12,7 @@
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
   <!-- Animate CSS CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -47,18 +48,18 @@
       <a href="#skills" class="btn nav-link">Skills</a>
       <a href="#projects" class="btn nav-link">Projects</a>
       <a href="https://docs.google.com/document/d/1Gd8pS7SE6voodheIS0TisBQeRaQSUCVB7d4CVVgwBiU/edit?usp=sharing"
-          target="_blank" class="btn nav-link">Resume</a>
-      
+        target="_blank" class="btn nav-link">Resume</a>
+
     </div>
 
     <main>
       <section class="hero">
         <div class="hero-content">
           <h1>Hello, I'm Stefanus Albert Welong</h1>
-          <p>Aspiring Front-End Developer & UI/UX Designer, Researcher, and Analyst actively seeking fresh graduate
+          <p>Aspiring Front-End Developer & UI/UX Designer, Researcher, and Data Analyst actively seeking fresh graduate
             opportunities</p>
           <p>Crafting beautiful, functional, and user-centric websites and applications.</p>
-          <button onclick="window.location.href='#projects'">See My Work</button>
+          <button style="color: rgb(12, 12, 156)" onclick="window.location.href='#projects'">See My Work</button>
         </div>
         <div class="hero-image">
           <img src="assets/icons/pixeltrue-web-development.svg" alt="Developer Image">
@@ -92,12 +93,25 @@
         <h2 class="projects-title">Some of my Recent Projects</h2>
         <div class="projects-container">
           <div class="project-container project-card">
-            <!-- <img
-                    src="assets/images/expenseTracker.png"
-                    alt="expense-tracker"
-                    loading="lazy"
-                    class="project-pic"
-                  /> -->
+            <h3 class="project-title">
+              <a href="https://docs.google.com/presentation/d/1O3VbN2KGyJcEc7gmMp2da7eFCTI-SSXcvhVmlcsecf4/edit?usp=sharing"
+                target="_blank" class="project-link">
+                Bike-Share Data Analyst Case Study
+              </a>
+            </h3>
+            <p class="project-details">
+              Data Analysis project tackled using Excel and RStudio to clean, analyze, and visualize bike-share data
+              from the past 12 months, focusing on ride patterns and membership behaviors
+            </p>
+            <div class="project-skills">
+              <div class="skill-button"><i class="fas fa-chart-bar"></i> Data Analysis</div>
+              <div class="skill-button"><i class="fas fa-file-excel"></i> Excel</div>
+              <div class="skill-button"><i class="fas fa-code"></i> R</div>
+              <div class="skill-button"><i class="fas fa-database"></i> SQL</div>
+            </div>
+
+          </div>
+          <div class="project-container project-card">
             <h3 class="project-title">
               <a href="https://github.com/stefanusaw/UX_Analyst_Project" target="_blank" class="project-link">
                 UX Analysis on Higgzfield Co.
@@ -107,6 +121,11 @@
               Collaborating with Higgzfield Co. to perform a full-scale UX analysis on their website
               to assist them in their full website redesign process.
             </p>
+            <div class="project-skills">
+              <div class="skill-button"><i class="fas fa-pencil-ruler"></i> UX Analysis</div>
+              <div class="skill-button"><i class="fas fa-vial"></i> Usability Testing</div>
+              <div class="skill-button"><i class="fas fa-user"></i> User Research</div>
+            </div>
 
           </div>
           <div class="project-container project-card">
@@ -118,13 +137,20 @@
                   /> -->
             <h3 class="project-title">
               <a href="https://github.com/stefanusaw/project-W4TW-EWB" target="_blank" class="project-link">
-                Water Filter Building Mobile App
+                Mobile App - Water Filter Building 
               </a>
             </h3>
             <p class="project-details">
               Collaborating with Engineers Without Borders to implement a fully functioning mobile application on
               building a water filter incorporating the React Native framework.
             </p>
+            <div class="project-skills">
+              <div class="skill-button"><i class="fas fa-laptop-code"></i> Software Engineering</div>
+              <div class="skill-button"><i class="fab fa-python"></i> Python</div>
+              <div class="skill-button"><i class="fas fa-database"></i> PostgreSQL</div>
+              <div class="skill-button"><i class="fab fa-js"></i> JavaScript</div>
+              <div class="skill-button"><i class="fab fa-react"></i> React Native</div>
+            </div>
           </div>
 
         </div>

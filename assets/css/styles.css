@@ -150,7 +150,7 @@ nav ul li {
 
 .skill-header {
   margin-bottom: 1rem;
-  color:rgba(255, 255, 255, 0.8)
+  color: rgba(255, 255, 255, 0.8)
 }
 
 .skills-wrapper img {
@@ -170,6 +170,7 @@ nav ul li {
   /* background-color: grey; */
   padding: 32px 0;
   margin-top: 2rem;
+  overflow: hidden;
 }
 
 .project-pic {
@@ -179,8 +180,10 @@ nav ul li {
 
 .projects-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* background-color: red; */
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow-y: hidden;
 }
 
 .projects-title {
@@ -209,6 +212,42 @@ nav ul li {
 .projects a {
   color: black;
   text-decoration: underline;
+}
+
+.project-skills {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.skill-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #99ccff;
+  color: #000;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: default;
+}
+
+.skill-button i {
+  margin-right: 5px;
+}
+
+/* Hide scrollbar for better appearance */
+.project-skills::-webkit-scrollbar {
+  display: none;
+}
+
+.project-skills {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 /* Projects section ends */
@@ -447,9 +486,11 @@ nav ul li {
   .navigation {
     display: none;
   }
+
   nav {
     padding: 1.5rem 5%;
   }
+
   .burger-menu {
     display: block;
     position: fixed;
@@ -462,6 +503,7 @@ nav ul li {
     font-size: 2rem;
     cursor: pointer;
   }
+
   main {
     margin: 10px;
   }
@@ -481,35 +523,12 @@ nav ul li {
     height: 5.25rem;
   }
 
-  .projects-container {
-    flex-direction: column;
+  .footer a {
+    margin: 0 10px;
   }
-
-  .project-container {
-    width: 20.875rem;
-  }
-
-  .contact-form-container {
-    max-width: 23.75rem;
-  }
-
 
 }
 
-/* @media screen and (max-width: 420px) {
-  .hero img {
-    height: 37.5rem;
-    width: 23rem;
-  }
-
-  .project-container {
-    width: 17.875rem;
-  }
-
-  .contact-form-container {
-    max-width: 17.75rem;
-  }
-} */
 
 
 /* Styling for maintenance overlay */
@@ -541,4 +560,3 @@ nav ul li {
 .maintenance-content p {
   font-size: 1.2rem;
 }
-
