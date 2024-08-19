@@ -183,7 +183,6 @@ nav ul li {
   /* background-color: red; */
   align-items: flex-start;
   justify-content: center;
-  
   overflow-y: hidden;
 }
 .projects-container > * {
@@ -503,7 +502,7 @@ nav ul li {
 
   .burger-menu {
     display: block;
-    position: fixed;
+    position: absolute;
     top: 1rem;
     right: 1rem;
     z-index: 1100;
