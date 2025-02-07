@@ -502,7 +502,7 @@ nav ul li {
 
   .burger-menu {
     display: block;
-    position: absolute;
+    /* position: absolute; */
     top: 1rem;
     right: 1rem;
     z-index: 1100;
